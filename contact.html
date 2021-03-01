@@ -5,21 +5,22 @@
     <title>Unikalny tytuł strony P.Starzycki</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
 </head>
 <body>
-<form class ="row g-3" style="margin-left: 30px">
-    <div class="mb-3"  >
-        <label for="inputFirstName" class="form-label" >Imię:</label><br>
+<form style="width: 50%; margin:30px;">
+    <div class="mb-3">
+        <label for="inputFirstName" class="form-label">Imię:</label>
         <input type="text" class="form-control" id="inputFirstName" placeholder="Podaj imię">
     </div>
     <div class="mb-3">
-        <label for="inputSurName" class="form-label">Nazwisko:</label><br>
+        <label for="inputSurName" class="form-label">Nazwisko:</label>
         <input type="text" class="form-control" id="inputSurName" placeholder="Podaj nazwisko">
     </div>
     <div class="mb-3">
-        <label for="inputEmail" class="form-label">Email:</label><br>
+        <label for="inputEmail" class="form-label">Email:</label>
         <input type="email" class="form-control" id="inputEmail" placeholder="Podaj email">
     </div>
 
@@ -38,17 +39,17 @@
     </div>
 
     <div class="col-12">
-        <label for="inputDescription" class="form-label">Opis:</label><br>
+        <label for="inputDescription" class="form-label">Opis:</label>
         <textarea class="form-control" id="inputDescription" rows="3"></textarea>
     </div>
 
     <div class="col-12">
-        <label for="inputAge" class="form-label">Wiek:</label><br>
+        <label for="inputAge" class="form-label">Wiek:</label>
         <input type="number" class="form-control" id="inputAge" value="0">
     </div>
 
-    <div class ="col-12">
-        <label for="civilStateSelect" class="form-label">Stan Cywilny:</label><br>
+    <div class="col-12">
+        <label for="civilStateSelect" class="form-label">Stan Cywilny:</label>
         <select class="form-control" id="civilStateSelect" aria-label="Stan cywilny">
             <option selected>Wybierz</option>
             <option value="1">Panna/Kawaler</option>
